@@ -20,18 +20,30 @@ Volley offers the following benefits:
 
 Volley is not suitable for large download or streaming operations, since Volley holds all responses in memory during parsing. For large download operations, consider using an alternative like DownloadManager.
 
+### Prerequisites
+
+- Working With Android Studios
+- Java
+- Volley Library
+
 ### Add Volley to your project
 
 Add the following dependency to your app's build.gradle file:
 ```dependencies {
     compile 'com.android.volley:volley:1.0.0'
-}```
+}
 
 
 You can also clone the Volley repository and set it as a library project:
 
-```Git clone the repository by typing the following at the command line:
+Git clone the repository by typing the following at the command line:
     git clone https://github.com/google/volley```
 
 -Import the downloaded source into your app project as an Android library module as described in Create an Android Library.
+
+##Screenshot
+
+![alt text](https://github.com/rootone-lab/Day-1-VolleyLibrary/blob/master/Weather.PNG)
+
+
 
