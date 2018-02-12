@@ -47,7 +47,7 @@ public class MainActivity extends AppCompatActivity {
 
 
         button.setOnClickListener(new View.OnClickListener() {
-            @Override
+            
             public void onClick(View view) {
                 EditText cityName = (EditText)findViewById(R.id.search);
                 name = cityName.getText().toString();
